@@ -1,0 +1,36 @@
+#search_links {
+  float: right;
+  display: block;
+}
+
+#form_search {
+  clear: both;
+}
+
+.external_links{
+  margin: 10px;
+}
+
+#logo {
+  clear: both;
+  display: flex;
+  width: 100px;
+  margin: 0px;
+}
+
+
+.form_divs {
+  display: flex;
+  justify-content: center;
+}
+
+#search_bar {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+  height: 10px;
+  border-radius: 30px;
+  padding: 15px;
+  margin: 50px 0px 0px 0px;
+  /* You need to set a width, or it will stretch full width */
+}

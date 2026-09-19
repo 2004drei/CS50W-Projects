@@ -1,0 +1,100 @@
+/* ---- Reset & Body ---- */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  background: #fff;
+}
+
+#outer_div{
+  padding: 10px 30px 30px 60px;
+}
+
+#logo {
+  width: 100px;
+  margin: 40px 30px 30px 90px;
+}
+
+header{
+  border-bottom: 1px solid #d4d4d4;
+}
+
+/* ---- Headings ---- */
+h2 {
+  font-size: 30px;
+  font-weight: 400;
+  color: #333;
+  margin: 30px 0px 30px 0px;
+}
+
+h3 {
+  font-size: 19px;
+  font-weight: 400;
+  color: #333;
+  margin: 20px 0px 15px 0px;
+  padding-bottom: 10px;
+}
+
+/* ---- Form Container ---- */
+form {
+  max-width: 700px;
+  margin: 20px 30px;
+}
+
+/* ---- Each Row (Label + Input) ---- */
+#formsZ div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  min-height: px;
+}
+
+/* ---- Labels: Fixed width, right-aligned ---- */
+label {
+  width: 130px;
+  flex-wrap: wrap;
+  font-size: 15px;
+  font-weight: 400;
+  color: #333;
+  text-align: left;
+  padding-right: 20px;
+}
+
+/* ---- Inputs: Fill remaining space ---- */
+.input_box {
+  flex: 1;
+  max-width: 400px;
+  min-height: 35px;
+  padding: 6px;
+  border: 1px solid #c2c2c2;
+  border-radius: 4px;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: border-color 0.2s;
+}
+
+/* ---- Input Focus (Google blue glow) ---- */
+.input_box:focus {
+  border-color: #4d90fe;
+  outline: none;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1), 0 0 0 1px #4d90fe;
+}
+
+/* ---- Submit Button ---- */
+#submit_button {
+  background: #4d90fe;
+  color: white;
+  border: none;
+  padding: 8px 24px;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 2px;
+  cursor: pointer;
+  margin: 15px 130px 15px 15px;
+  float: right;
+  /* margin-left: 180px;       label width (160px) + padding (20px) */
+  transition: background 0.2s;
+}
+
+#submit_button:hover {
+  background: #357ae8;
+}
