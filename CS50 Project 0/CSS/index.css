@@ -12,17 +12,10 @@
 }
 
 #logo {
-  clear: both;
-  display: flex;
-  width: 100px;
-  margin: 0px;
-}
-
-#logo {
   display: block;
   margin: 0 auto;
-  padding: 80px 0px 0px 0px;
-  width: 250px;
+  padding: 70px 0px 0px 0px;
+  width: 300px;
 }
 
 .form_divs {
@@ -33,14 +26,22 @@
 #search_bar {
   display: block;
   margin: 0 auto;
-  width: 300px;
+  width: 500px;
   height: 10px;
+  border-width: 0.5px;
   border-radius: 30px;
   padding: 15px;
   margin: 50px 0px 0px 0px;
   /* You need to set a width, or it will stretch full width */
 }
 
+#searchButtons {
+  margin: 10px 0px 0px 0px;
+}
+
 .buttons {
+  font-family: 'Google Sans', sans-serif;
+  font-weight: 700;
   margin: 10px 10px 10px 10px;
+  padding: 5px 10px;
 }
