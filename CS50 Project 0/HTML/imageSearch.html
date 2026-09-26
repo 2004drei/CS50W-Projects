@@ -3,13 +3,43 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/CS50 Project 0/CSS/imageSearch.css" />
     <title>Image Search</title>
   </head>
   <body>
-    <form action="https://images.google.com/search" method="" target="_blank">
-      <input type="text" name="q" placeholder="Search..." />
-      <input type="hidden" name="tbm" value="isch">
-      <button type="submit">Google Image Search</button>
-    </form>
+    <div id="search_links">
+      <a
+        href="/CS50 Project 0/HTML/imageSearch.html"
+        target="_blank"
+        class="external_links"
+        >Images</a
+      >
+      <a
+        href="/CS50 Project 0/HTML/advancedSearch.html"
+        target="_blank"
+        class="external_links"
+        >Advanced Search</a
+      >
+    </div>
+    <div id="form_search">
+      <form action="https://www.google.com/search" method="get" target="_blank">
+        <div>
+          <a href="">
+            <img
+              src="/CS50 Project 0/imgs/google_images_logo.png"
+              alt=""
+              id="logo"
+            />
+          </a>
+        </div>
+        <div class="form_divs" id="search_bar_div">
+          <input type="text" name="q" placeholder="Search..." id="search_bar" />
+        </div>
+        <div class="form_divs" id="searchButtons">
+          <button type="submit" class="buttons">Google Search</button>
+          <button type="submit" class="buttons">I'm Feeling Lucky</button>
+        </div>
+      </form>
+    </div>
   </body>
 </html>
