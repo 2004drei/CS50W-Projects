@@ -4,21 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/CS50 Project 0/CSS/imageSearch.css" />
+    <link rel="icon" href="/CS50 Project 0/imgs/googleTabIcon.png">
     <title>Image Search</title>
   </head>
   <body>
     <div id="search_links">
       <a
-        href="/CS50 Project 0/HTML/imageSearch.html"
+        href="/CS50 Project 0/HTML/index.html"
         target="_blank"
         class="external_links"
-        >Images</a
-      >
-      <a
-        href="/CS50 Project 0/HTML/advancedSearch.html"
-        target="_blank"
-        class="external_links"
-        >Advanced Search</a
+        >Google Search</a
       >
     </div>
     <div id="form_search">
@@ -34,10 +29,10 @@
         </div>
         <div class="form_divs" id="search_bar_div">
           <input type="text" name="q" placeholder="Search..." id="search_bar" />
+          <input type="hidden" name="tbm" value="isch">
         </div>
         <div class="form_divs" id="searchButtons">
           <button type="submit" class="buttons">Google Search</button>
-          <button type="submit" class="buttons">I'm Feeling Lucky</button>
         </div>
       </form>
     </div>

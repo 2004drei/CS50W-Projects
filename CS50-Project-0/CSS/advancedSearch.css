@@ -5,6 +5,20 @@ body {
   background: #fff;
 }
 
+a {
+  color: black;
+  text-decoration: none;
+  font-family: 'Google Sans', sans-serif;
+  font-size: 15px;
+}
+
+.external_links{
+  display: block;
+  margin: 10px;
+  color: #575757;
+  padding: 10px 60px 10px 10px;
+}
+
 #outer_div{
   padding: 10px 30px 30px 60px;
 }
@@ -14,8 +28,11 @@ body {
   margin: 40px 30px 30px 90px;
 }
 
-header{
+header {
   border-bottom: 1px solid #d4d4d4;
+  display: flex;                  /* NEW */
+  justify-content: space-between; /* NEW */
+  align-items: center;            /* NEW */
 }
 
 /* ---- Headings ---- */
@@ -81,14 +98,16 @@ label {
 
 /* ---- Submit Button ---- */
 #submit_button {
-  background: #4d90fe;
+  font-family: 'Google Sans', sans-serif;
+  font-weight: 550;
+  background: #156fff;
   color: white;
   border: none;
-  padding: 8px 24px;
   font-size: 13px;
   font-weight: 500;
-  border-radius: 2px;
+  border-radius: 20px;
   cursor: pointer;
+  padding: 10px 30px 10px 30px;
   margin: 15px 130px 15px 15px;
   float: right;
   /* margin-left: 180px;       label width (160px) + padding (20px) */
@@ -96,5 +115,5 @@ label {
 }
 
 #submit_button:hover {
-  background: #357ae8;
+  background: #004bc4;
 }
